@@ -1,0 +1,75 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #F7DC6F;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Estilos da navegação */
+nav {
+  background-color: #2980B9;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #2980B9;
+}
+
+/* Estilos da seção de notícias */
+section {
+  padding: 50px;
+}
+
+/* Estilos da seção de personagens */
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section ul li {
+  margin: 20px;
+  text-align: center;
+}
+
+section ul li h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+section ul li img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
